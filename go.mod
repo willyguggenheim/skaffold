@@ -38,9 +38,9 @@ exclude k8s.io/apimachinery v0.23.5
 
 require (
 	4d63.com/tz v1.2.0
-	cloud.google.com/go/monitoring v1.12.0
+	cloud.google.com/go/monitoring v1.13.0
 	cloud.google.com/go/profiler v0.1.0
-	cloud.google.com/go/storage v1.27.0
+	cloud.google.com/go/storage v1.28.1
 	github.com/AlecAivazis/survey/v2 v2.2.15
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric v0.35.1
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/trace v1.11.1
@@ -58,11 +58,12 @@ require (
 	github.com/docker/docker v20.10.20+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/dustin/go-humanize v1.0.1
+	github.com/evanphx/json-patch v4.12.0+incompatible
 	github.com/fatih/semgroup v1.2.0
 	github.com/go-git/go-git/v5 v5.5.2
-	github.com/golang/glog v1.0.0
+	github.com/golang/glog v1.1.0
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da
-	github.com/golang/protobuf v1.5.2
+	github.com/golang/protobuf v1.5.3
 	github.com/google/go-cmp v0.5.9
 	github.com/google/go-containerregistry v0.11.0
 	github.com/google/go-github v17.0.0+incompatible
@@ -102,15 +103,15 @@ require (
 	go.opentelemetry.io/otel/sdk v1.13.0
 	go.opentelemetry.io/otel/sdk/metric v0.36.0
 	go.opentelemetry.io/otel/trace v1.13.0
-	golang.org/x/oauth2 v0.5.0
+	golang.org/x/oauth2 v0.7.0
 	golang.org/x/sync v0.1.0
-	golang.org/x/sys v0.5.0
-	golang.org/x/term v0.5.0
+	golang.org/x/sys v0.7.0
+	golang.org/x/term v0.7.0
 	golang.org/x/tools v0.6.0
-	google.golang.org/api v0.109.0
-	google.golang.org/genproto v0.0.0-20230209215440-0dfe4f8abfcc
-	google.golang.org/grpc v1.53.0
-	google.golang.org/protobuf v1.28.1
+	google.golang.org/api v0.114.0
+	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1
+	google.golang.org/grpc v1.56.3
+	google.golang.org/protobuf v1.30.0
 	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1
 	k8s.io/api v0.25.4
@@ -126,11 +127,11 @@ require (
 
 require (
 	4d63.com/embedfiles v0.0.0-20190311033909-995e0740726f // indirect
-	cloud.google.com/go v0.107.0 // indirect
-	cloud.google.com/go/compute v1.18.0 // indirect
+	cloud.google.com/go v0.110.0 // indirect
+	cloud.google.com/go/compute v1.19.1 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
-	cloud.google.com/go/iam v0.8.0 // indirect
-	cloud.google.com/go/trace v1.8.0 // indirect
+	cloud.google.com/go/iam v0.13.0 // indirect
+	cloud.google.com/go/trace v1.9.0 // indirect
 	github.com/Azure/azure-sdk-for-go v68.0.0+incompatible // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
@@ -184,7 +185,6 @@ require (
 	github.com/dprotaso/go-yit v0.0.0-20220510233725-9ba8df137936 // indirect
 	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
-	github.com/evanphx/json-patch v4.12.0+incompatible // indirect
 	github.com/evanphx/json-patch/v5 v5.6.0 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
@@ -214,8 +214,8 @@ require (
 	github.com/google/pprof v0.0.0-20210804190019-f964ff605595 // indirect
 	github.com/google/safetext v0.0.0-20230106111101-7156a760e523 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
-	github.com/googleapis/enterprise-certificate-proxy v0.2.2 // indirect
-	github.com/googleapis/gax-go/v2 v2.7.0 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
+	github.com/googleapis/gax-go/v2 v2.7.1 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
@@ -291,8 +291,8 @@ require (
 	go.uber.org/zap v1.24.0 // indirect
 	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/mod v0.8.0 // indirect
-	golang.org/x/net v0.7.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/net v0.9.0 // indirect
+	golang.org/x/text v0.9.0 // indirect
 	golang.org/x/time v0.2.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
